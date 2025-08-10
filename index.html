@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Meme Channel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Meme Maker</h1>
+    <input type="file" id="imageInput" accept="image/*"><br>
+    <input type="text" id="topText" placeholder="Top text"><br>
+    <input type="text" id="bottomText" placeholder="Bottom text"><br>
+    <button id="generateBtn">Generate Meme</button>
+    <button id="downloadBtn">Download Meme</button>
+    <div class="canvas-container">
+      <canvas id="memeCanvas"></canvas>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+<audio src="snd/bgm.mp3" loop autoplay></audio>
+</html>
